@@ -16,7 +16,7 @@ var visualization;
 
 function drawVisualization() {
     var query = new google.visualization.Query('https://spreadsheets.google.com/tq?key=1gz5WCT1OdE_bpwUYmuNUpPYfxLjloNm3TB70vcSpVPQ&output=html&usp=sharing');
-    query.setQuery('SELECT A, B, C label A "User", B "Points Total", C "Points Spent");
+    query.setQuery('SELECT A, B, C, D label A "User", B "Total Points", C "Spent Points", D "URL"');
     query.send(handleQueryResponse);
 }
 
