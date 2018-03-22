@@ -3,7 +3,7 @@
 		font-family: "Cormorant", sans-serif;
 }
 body {
-  background:#000;
+  background:#e7e7e7;
   }
 #box {
 margin-left:auto; 
@@ -27,7 +27,7 @@ h1 {
   line-height: 1.3em;
   margin: 0.8rem 0 0 0;
   padding-bottom: 5px;
-	color: #fff;
+	color: #000;
   }
 p {
   font-family: 'Open Sans', sans-serif;
